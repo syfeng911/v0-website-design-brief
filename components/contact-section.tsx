@@ -32,8 +32,8 @@ const contacts = [
   {
     icon: Mail,
     label: "E-mail",
-    value: "service@tc-info.com.tw",
-    href: "mailto:service@tc-info.com.tw",
+    value: "gfc_syfeng@hotmail.com",
+    href: "mailto:gfc_syfeng@hotmail.com",
   },
   {
     icon: Globe,
