@@ -1,0 +1,25 @@
+import { Navbar } from "@/components/navbar"
+import { HeroSection } from "@/components/hero-section"
+import { ServicesSection } from "@/components/services-section"
+import { OutsourcingSection } from "@/components/outsourcing-section"
+import { ComparisonSection } from "@/components/comparison-section"
+import { PricingSection } from "@/components/pricing-section"
+import { ContactSection } from "@/components/contact-section"
+import { Footer } from "@/components/footer"
+import { ScrollToTop } from "@/components/scroll-to-top"
+
+export default function Home() {
+  return (
+    <main className="relative">
+      <Navbar />
+      <HeroSection />
+      <ServicesSection />
+      <OutsourcingSection />
+      <ComparisonSection />
+      <PricingSection />
+      <ContactSection />
+      <Footer />
+      <ScrollToTop />
+    </main>
+  )
+}
